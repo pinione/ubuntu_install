@@ -29,6 +29,7 @@
       - gimp
       - fuse3
       - ffmpeg
+      - yt-dlp
 
   tasks:
     - name: Update apt cache
