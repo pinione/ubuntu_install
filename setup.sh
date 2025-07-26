@@ -2,7 +2,7 @@
 
 set -e
 
-REPO_URL="https://github.com/your-username/your-ansible-repo.git"
+REPO_URL="https://github.com/pinione/ubuntu_install.git"
 CLONE_DIR="$HOME/ansible-local-setup"
 
 # Step 1: Install Ansible if not installed
