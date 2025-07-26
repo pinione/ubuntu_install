@@ -12,6 +12,23 @@
       - htop
       - wireshark
       - tshark
+      - virt-manager
+      - vlc
+      - unzip
+      - unrar
+      - tcpdump
+      - strace
+      - sshfs
+      - rsync
+      - gparted
+      - mc
+      - lsof
+      - jq
+      - hashcat
+      - gnupg
+      - gimp
+      - fuse3
+      - ffmpeg
 
   tasks:
     - name: Update apt cache
