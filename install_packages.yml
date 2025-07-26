@@ -30,6 +30,7 @@
       - fuse3
       - ffmpeg
       - yt-dlp
+      - eog
 
   tasks:
     - name: Update apt cache
