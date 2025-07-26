@@ -1,0 +1,25 @@
+---
+- name: Install packages on local Ubuntu
+  hosts: localhost
+  become: yes
+  connection: local
+
+  vars:
+    packages:
+      - git
+      - curl
+      - vim
+      - htop
+      - wireshark
+      - tshark
+
+  tasks:
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+        cache_valid_time: 3600
+
+    - name: Install required packages
+      apt:
+        name: "{{ packages }}"
+        state: present
