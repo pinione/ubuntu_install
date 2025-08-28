@@ -32,6 +32,7 @@
       - yt-dlp
       - eog
       - autofs
+      - keyd
 
   tasks:
     - name: Update apt cache
