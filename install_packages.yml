@@ -33,7 +33,16 @@
       - eog
       - autofs
       - keyd
-
+      - inkscape
+      - ansible
+      - cherrytree
+      - curl
+      - awk
+      - lsof
+      - screen
+      - strace
+      - tcpdump
+      - vlc
   tasks:
     - name: Update apt cache
       apt:
