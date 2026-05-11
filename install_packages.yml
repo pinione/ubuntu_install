@@ -44,6 +44,7 @@
       - strace
       - tcpdump
       - vlc
+      - exiftool
   tasks:
     - name: Update apt cache
       apt:
