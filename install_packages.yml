@@ -38,7 +38,7 @@
       - ansible
       - cherrytree
       - curl
-      - awk
+      - gawk
       - lsof
       - screen
       - strace
